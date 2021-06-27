@@ -8,13 +8,21 @@
     </div>
     <mat-divider></mat-divider>
     <h2 matSubheader color=primary>Pages</h2>
-   <a mat-list-item routerLinkActive='list-item-active'routerLink="/">Bookings</a>
-   <a mat-list-item routerLinkActive='list-item-active'routerLink="/users">Users</a>
-   <a mat-list-item routerLinkActive='List-Item-Active'routerLink="/log">ActivityLog</a>
+    <div class="nav-link">
+         <a mat-list-item routerLinkActive='list-item-active'routerLink="/">Bookings</a>
+    </div>  
+    <div class="nav-link">
+         <a mat-list-item routerLinkActive='list-item-active'routerLink="/users">Users</a>
+    </div>
+    <div class="nav-link">
+         <a mat-list-item routerLinkActive='list-item-active'routerLink="/log">ActivityLog</a>
+    </div>
      <mat-divider></mat-divider>
     <h2 matSubheader color=primary>Tools</h2>
-    <a mat-list-item routerLinkActive='list-item-active'routerLink="/analysis">
-        <mat-icon>import_contacts</mat-icon>
-        Analysis
-    </a>
+      <div class="nav-link">
+            <a mat-list-item routerLinkActive='list-item-active'routerLink="/analysis">
+                <mat-icon>import_contacts</mat-icon>
+                Analysis
+            </a>
+        </div>
 </mat-nav-list>

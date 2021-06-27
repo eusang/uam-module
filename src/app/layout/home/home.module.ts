@@ -9,6 +9,12 @@ import{MatSidenavModule} from '@angular/material/sidenav';
 import { MatDividerModule } from '@angular/material/divider';
 import { LogComponent } from 'src/app/modules/log/log.component';
 import { AnalysisComponent } from 'src/app/modules/analysis/analysis.component';
+import {MatCardModule} from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
+import { HallComponent } from 'src/app/modules/hall/hall.component';
+import { MatButtonModule } from '@angular/material/button';
+import { UserdetailsComponent } from 'src/app/modules/userdetails/userdetails.component';
+
 
 
 @NgModule({
@@ -17,7 +23,9 @@ import { AnalysisComponent } from 'src/app/modules/analysis/analysis.component';
     DashboardComponent,
     UsersComponent,
     LogComponent,
-    AnalysisComponent
+    AnalysisComponent,
+    HallComponent,
+    UserdetailsComponent
   ],
   imports: [
     CommonModule,
@@ -25,6 +33,10 @@ import { AnalysisComponent } from 'src/app/modules/analysis/analysis.component';
     SharedModule,
     MatSidenavModule,
     MatDividerModule,
+    MatCardModule,
+    MatButtonModule,
+    MatIconModule
+
 
   ]
 })

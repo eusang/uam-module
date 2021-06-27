@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+.title{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+.Hall-Detail{
+    
+    max-width:100%;
+    min-height: 100%;
+  }
+.hall-img{
+    width: 50%;
+    border:0;
+    align-content:left;
+}
+.content{
+    float:right;
+    padding-right: 35%;
+    font-size: small;
+    font-family:Lato;
+    font-weight: bold;
+}
+.status{
+    padding-top: 20px;
+
+}
+.time{
+    padding-top:20px;
+}
+.date{
+    padding-top:20px;
+}
+
+

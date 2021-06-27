@@ -1,10 +1,55 @@
-<div>
+<div class="Title">
     Meeting Halls
 </div>
-<mat-divider></mat-divider>
-<div>
-   <div>Hall 1</div>
-   <div>Hall 1</div>
-   <div>Hall 1</div>
+
+<div class="container">
+    <div class="card">
+        <mat-card>
+            <mat-card-title class="Hall-Name">
+                Meeting Ha11 1  
+                <a mat-card-actions routerLinkActive='list-item-active'routerLink="/hall" class="detail">
+                    <mat-icon>
+                        keyboard_arrow_right
+                    </mat-icon>
+                </a>   
+                <div class="hall-detail">Hall details</div>
+            </mat-card-title>
+        </mat-card>
+    </div>
+
+    <div class="card">
+        <mat-card >
+            <mat-card-title class="Hall-Name">
+                Meeting Ha11 2 
+                <a mat-card-actions routerLinkActive='list-item-active'routerLink="/hall" class="detail">
+                    <mat-icon>
+                        keyboard_arrow_right
+                    </mat-icon>
+                </a>   
+                <div class="hall-detail">Hall details</div>
+            </mat-card-title>
+        </mat-card>
+    </div>
+    
+    <div class="card">
+        <mat-card >
+            <mat-card-title class="Hall-Name">
+                Meeting Ha11 3
+                <a mat-card-actions routerLinkActive='list-item-active'routerLink="/hall" class="detail">
+                    <mat-icon>
+                        keyboard_arrow_right
+                    </mat-icon>
+                </a>   
+                <div class="hall-detail">Hall details</div>
+            </mat-card-title>
+        </mat-card>
+    </div>
+        <a color="primary" routerLinkActive='list-item-active'routerLink="/hall" class="icon" >
+            <mat-icon class="md-36" inline aria-label="add_circle">
+                add_circle
+              </mat-icon>
+        </a>
+        <div class="hide">Click here to add a meeting room</div>
+   
 </div>
 

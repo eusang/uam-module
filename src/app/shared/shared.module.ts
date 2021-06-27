@@ -11,6 +11,7 @@ import{MatIconModule} from '@angular/material/icon';
 import{MatListModule} from '@angular/material/list'
 import{MatMenuModule}from '@angular/material/menu';
 import { RouterModule } from '@angular/router';
+import { MatCardModule } from '@angular/material/card';
 @NgModule({
   declarations: [
     HeaderComponent,
@@ -26,7 +27,8 @@ import { RouterModule } from '@angular/router';
     FlexLayoutModule,
     MatMenuModule,
     MatListModule,
-    RouterModule
+    RouterModule,
+    MatCardModule
 
   ],
   exports:[
