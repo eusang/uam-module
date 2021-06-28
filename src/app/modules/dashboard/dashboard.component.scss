@@ -1,41 +1,44 @@
-.Title{
-    font-weight: bolder;
-    font-family:sans-serif;
-    font-size:20px;
-    padding-left: 20px;
+.Title {
+  font-weight: bolder;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding-left: 20px;
 }
-.container{
-    padding: 50px 400px 10px 10px;
-    
+.container {
+  padding: 50px 400px 10px 10px;
 }
-.mat-card{
-    border-radius: 10px;
+.mat-card {
+  border-radius: 10px;
 }
-.card{
-    padding-top: 10px ;
-    padding-bottom: 30px;
+.card {
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
-.Hall-Name{
-    font-size: medium;
-    font-family:sans-serif;
+.Hall-Name {
+  font-size: medium;
+  font-family: sans-serif;
+  flex: 1;
 }
-.hall-detail{
-    display: none;
+.hall-detail {
+  display: none;
 }
-.detail:hover+ .hall-detail{
-    display: block;
-    color: #786AFF;
-    font-size: small;
+.detail {
+  margin-right: 100px;
+}
+.detail:hover + .hall-detail {
+  display: block;
+  color: #786aff;
+  font-size: small;
 }
 .material-icons.md-36 {
-    font-size: 36px;
-    padding-left: 500px;
-  }
-.hide{
-    display: none;
+  font-size: 36px;
+  padding-left: 500px;
+}
+.hide {
+  display: none;
 }
 .icon:hover + .hide {
-    display:block;
-    color:#786AFF;
-  }
+  display: block;
+  color: #786aff;
+}

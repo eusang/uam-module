@@ -1,4 +1,4 @@
-.table-header {
+.header {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -52,9 +52,60 @@
 .search {
   padding: 10px 8px;
   border-radius: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0.2, 0.7);
   width: 200px;
 }
 .submit {
   cursor: pointer;
+}
+.table-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+}
+.user {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: darkgray;
+  font-family: sans-serif;
+  padding-left: 10em;
+}
+.content {
+  padding: 10px 100px 10px 10px;
+}
+
+.card {
+  display: flex;
+  height: 20px;
+  align-items: center;
+  margin-top: 2em;
+}
+.user-icon {
+  float: left;
+  font-size: 36px;
+  padding-top: 0.5em;
+}
+.user-name {
+  padding-left: 4em;
+  float: left;
+  font-size: medium;
+  padding-top: 1em;
+}
+.last-activity {
+  font-size: medium;
+  padding-left: 133px;
+}
+
+.user-detail {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+.description {
+  display: none;
+}
+.detail {
+  margin-left: 30em;
+  padding-top: -1em;
 }

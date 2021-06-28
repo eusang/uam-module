@@ -1,5 +1,5 @@
 <div class="details">
-  <div class="table-header">
+  <div class="header">
     <div class="profile">
       <div>
         <mat-icon color="primary" class="md-46">account_circle</mat-icon>
@@ -9,14 +9,19 @@
 
     <div class="form">
       <form action="/form/submit" method="GET">
-        <input type="text" name="text" class="search" placeholder="Search" />
+        <input
+          type="text"
+          name="text"
+          class="search"
+          placeholder="1999-02-18"
+        />
       </form>
       <mat-icon
         color="primary"
         class="submit"
         routerLinkActive="list-item-active"
         routerLink="/userdetails"
-        >search</mat-icon
+        >event</mat-icon
       >
     </div>
 
@@ -33,4 +38,36 @@
       </button>
     </div>
   </div>
+
+  <div class="table-header">
+    <span class="user">Hall Booked</span>
+    <span class="user">Date</span>
+    <span class="user">From</span>
+    <span class="user">To</span>
+  </div>
+
+  <mat-card class="card">
+    <span class="last-activity">Hall 1</span>
+    <span class="last-activity">2021-03-15</span>
+    <span class="last-activity">13:00</span>
+    <span class="last-activity">15:00</span>
+  </mat-card>
+  <mat-card class="card">
+    <span class="last-activity">Hall 3</span>
+    <span class="last-activity">2021-03-18</span>
+    <span class="last-activity">13:00</span>
+    <span class="last-activity">15:00</span>
+  </mat-card>
+  <mat-card class="card">
+    <span class="last-activity">Hall 2</span>
+    <span class="last-activity">2021-03-25</span>
+    <span class="last-activity">13:00</span>
+    <span class="last-activity">15:00</span>
+  </mat-card>
+  <mat-card class="card">
+    <span class="last-activity">Hall 2</span>
+    <span class="last-activity">2021-03-28</span>
+    <span class="last-activity">13:00</span>
+    <span class="last-activity">15:00</span>
+  </mat-card>
 </div>
