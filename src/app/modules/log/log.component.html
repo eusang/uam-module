@@ -1,1 +1,62 @@
-<p>log works!</p>
+<div class="details">
+  <div class="title">Activity Log</div>
+
+  <div class="header">
+    <div class="form">
+      <form action="/form/submit" method="GET">
+        <input
+          type="date"
+          name="date"
+          class="date-field"
+          placeholder="1999-02-18"
+        />
+      </form>
+    </div>
+    <span class="date"> Today: {{ todayString }}</span>
+  </div>
+
+  <div class="table-header">
+    <span class="user">User</span>
+    <span class="user">Hall Booked</span>
+    <span class="user">Date</span>
+    <span class="user">From</span>
+    <span class="user">To</span>
+  </div>
+
+  <mat-card class="card">
+    <span class="last-activity">
+      <mat-icon>account_circle</mat-icon> User 2
+    </span>
+    <span class="last-activity">Hall 1</span>
+    <span class="last-activity">2021-07-12</span>
+    <span class="last-activity">13:00</span>
+    <span class="last-activity">15:00</span>
+  </mat-card>
+  <mat-card class="card">
+    <span class="last-activity">
+      <mat-icon>account_circle</mat-icon> User 1
+    </span>
+    <span class="last-activity">Hall 3</span>
+    <span class="last-activity">2021-07-10</span>
+    <span class="last-activity">13:00</span>
+    <span class="last-activity">15:00</span>
+  </mat-card>
+  <mat-card class="card">
+    <span class="last-activity">
+      <mat-icon>account_circle</mat-icon> User 2
+    </span>
+    <span class="last-activity">Hall 2</span>
+    <span class="last-activity">2021-07-5</span>
+    <span class="last-activity">13:00</span>
+    <span class="last-activity">15:00</span>
+  </mat-card>
+  <mat-card class="card">
+    <span class="last-activity">
+      <mat-icon>account_circle</mat-icon> User 3
+    </span>
+    <span class="last-activity">Hall 2</span>
+    <span class="last-activity">2021-07-1</span>
+    <span class="last-activity">13:00</span>
+    <span class="last-activity">15:00</span>
+  </mat-card>
+</div>
