@@ -1,65 +1,101 @@
-<div class="Title">
-  Users
-</div>
-<form action="/form/submit" method="GET"> 
-    <input type="text" name="text" class="search" placeholder="Search name">
-    <mat-icon color="primary" class="submit" routerLinkActive='list-item-active'routerLink="/userdetails">search</mat-icon>
-  </form>
-  <button mat-raised-button color="primary" class="adduser">Add User</button> 
-<mat-card class="container">
+<div class="Title">Users</div>
+<div class="actions">
+  <div class="search">
     <div>
-        <span class="user">User</span>
-        <span class="user">Last Activity</span>
+      <input type="text" name="text" placeholder="Search name" />
     </div>
-    <div class="content">
-        <div class="card">
-            <mat-card>
-                <mat-card-title class="User-Detail">
-                    <mat-icon color="primary" class="user-icon" inline >account_circle</mat-icon> 
-                    <span class="user-name">User 1</span>
-                    <span class="last-activity">2021-03-15</span>
-                    <a mat-card-actions routerLinkActive='list-item-active'routerLink="/userdetails" class="detail">
-                        <mat-icon>
-                            keyboard_arrow_right
-                        </mat-icon>
-                    </a>   
-                    <div class="description">User details</div>
-                </mat-card-title>
-            </mat-card>
-        </div>
+    <div>
+      <mat-icon
+        color="primary"
+        class="submit"
+        routerLinkActive="list-item-active"
+        routerLink="/userdetails"
+        >search</mat-icon
+      >
+    </div>
+  </div>
+  <div class="button">
+    <button mat-raised-button color="primary" class="adduser">Add User</button>
+  </div>
+</div>
+<mat-card class="container">
+  <div class="header">
+    <span class="user">User</span>
+    <span class="user1">Last Activity</span>
+  </div>
+  <div class="content">
+    <div class="card">
+      <div>
+        <mat-icon color="primary" class="user-icon" inline
+          >account_circle</mat-icon
+        >
+      </div>
+      <span class="user-name">User 1</span>
+      <span class="last-activity">2020-05-06</span>
+      <a
+        mat-card-actions
+        routerLinkActive="list-item-active"
+        routerLink="/userdetails"
+        class="detail"
+      >
+        <mat-icon> keyboard_arrow_right </mat-icon>
+      </a>
+      <div class="description">User details</div>
+    </div>
+    <div class="card">
+      <div>
+        <mat-icon color="primary" class="user-icon" inline
+          >account_circle</mat-icon
+        >
+      </div>
+      <span class="user-name">User 2</span>
+      <span class="last-activity">2020-05-06</span>
+      <a
+        mat-card-actions
+        routerLinkActive="list-item-active"
+        routerLink="/userdetails"
+        class="detail"
+      >
+        <mat-icon> keyboard_arrow_right </mat-icon>
+      </a>
+      <div class="description">User details</div>
+    </div>
+    <div class="card">
+      <div>
+        <mat-icon color="primary" class="user-icon" inline
+          >account_circle</mat-icon
+        >
+      </div>
+      <span class="user-name">User 3</span>
+      <span class="last-activity">2020-05-06</span>
+      <a
+        mat-card-actions
+        routerLinkActive="list-item-active"
+        routerLink="/userdetails"
+        class="detail"
+      >
+        <mat-icon> keyboard_arrow_right </mat-icon>
+      </a>
+      <div class="description">User details</div>
+    </div>
 
-        <div class="card">
-            <mat-card >
-                <mat-card-title class="User-Detail">
-                    <mat-icon color="primary" class="user-icon" inline >account_circle</mat-icon> 
-                    <span class="user-name">User 2</span>
-                    <span class="last-activity">2020-05-06</span>
-                    <a mat-card-actions routerLinkActive='list-item-active'routerLink="/userdetails" class="detail">
-                        <mat-icon>
-                            keyboard_arrow_right
-                        </mat-icon>
-                    </a>   
-                    <div class="description">User details</div>
-                </mat-card-title>
-            </mat-card>
-        </div>
-        
-        <div class="card">
-            <mat-card >
-                <mat-card-title class="User-Detail">
-                    <mat-icon color="primary" class="user-icon" inline >account_circle</mat-icon> 
-                    <span class="user-name">User 3</span>
-                    <span class="last-activity">2021-01-28</span>
-                    <a mat-card-actions routerLinkActive='list-item-active'routerLink="/userdetails" class="detail">
-                        <mat-icon>
-                            keyboard_arrow_right
-                        </mat-icon>
-                    </a>   
-                    <div class="description">User Details</div>
-                </mat-card-title>
-            </mat-card>
-        </div>
-    
+    <div class="card">
+      <div>
+        <mat-icon color="primary" class="user-icon" inline
+          >account_circle</mat-icon
+        >
+      </div>
+      <span class="user-name">User 4</span>
+      <span class="last-activity">2021-01-28</span>
+      <a
+        mat-card-actions
+        routerLinkActive="list-item-active"
+        routerLink="/userdetails"
+        class="detail"
+      >
+        <mat-icon> keyboard_arrow_right </mat-icon>
+      </a>
+      <div class="description">User Details</div>
     </div>
+  </div>
 </mat-card>
-

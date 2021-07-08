@@ -1,15 +1,18 @@
-:host{
-    display:flex;
-    flex-direction:column;
-    height:100%;
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 mat-drawer {
-    width: 350px;
+  width: 350px;
+  @media (max-width: 768px) {
+    width: 200px;
+  }
 }
-mat-drawer-container{
-    height:100%;
+mat-drawer-container {
+  height: 100%;
 }
-mat-drawer-content{
-    padding:20px;
+mat-drawer-content {
+  padding: 20px;
 }
