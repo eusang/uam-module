@@ -12,6 +12,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
 import { RouterModule } from '@angular/router';
 import { MatCardModule } from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field';
 //import { MatDialogModule } from '@angular/material/dialog';
 @NgModule({
   declarations: [HeaderComponent, FooterComponent, SidebarComponent],
@@ -26,6 +27,7 @@ import { MatCardModule } from '@angular/material/card';
     MatListModule,
     RouterModule,
     MatCardModule,
+    MatFormFieldModule,
     // MatDialogModule,
   ],
   exports: [HeaderComponent, FooterComponent, SidebarComponent],

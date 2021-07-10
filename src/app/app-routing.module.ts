@@ -7,34 +7,45 @@ import { HallComponent } from './modules/hall/hall.component';
 import { LogComponent } from './modules/log/log.component';
 import { UserdetailsComponent } from './modules/userdetails/userdetails.component';
 import { UsersComponent } from './modules/users/users.component';
+import { LoginComponent } from './login/login.component';
 
-const routes: Routes = [{
-  path:'',
-  component:HomeComponent,
-  children: [{
-    path:'',
-    component:DashboardComponent
-  },{
-    path:'hall',
-    component:HallComponent
-  },{
-    path:'users',
-    component:UsersComponent
-  },{
-    path:'userdetails',
-    component:UserdetailsComponent
-  },{
-    path:'log',
-    component:LogComponent
-  },{
-    path:'analysis',
-    component:AnalysisComponent
-  }
-]
-}];
+const routes: Routes = [
+  {
+    path: '',
+    component: HomeComponent,
+    children: [
+      {
+        path: '',
+        component: DashboardComponent,
+      },
+      {
+        path: 'hall',
+        component: HallComponent,
+      },
+      {
+        path: 'users',
+        component: UsersComponent,
+      },
+
+      {
+        path: 'userdetails',
+        component: UserdetailsComponent,
+      },
+      {
+        path: 'log',
+        component: LogComponent,
+      },
+      {
+        path: 'analysis',
+        component: AnalysisComponent,
+      },
+      { path: 'login', component: LoginComponent },
+    ],
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

@@ -1,37 +1,30 @@
 <mat-toolbar color="white">
-    <mat-toolbar-row>
-        <button mat-icon-button (click)="toggleSideBar()">
-            <mat-icon color=primary>menu</mat-icon>
-        </button>
-        <div>
-            <img src="assets/logo.png">
-        </div>
-        <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
-            <ul fxLayout="row" fxLayoutGap="20px">
-                <li>
-                    <button mat-icon-button>
-                        <mat-icon color=primary>settings</mat-icon>
-                    </button>
-                </li>
-                <li>
-                    <button mat-icon-button>
-                        <mat-icon color=primary>help_outline</mat-icon>
-                    </button>
-                </li>
-                <li>
-                    <button mat-button [matMenuTriggerFor]="menu">
-                      <mat-icon color="primary"> person_outline</mat-icon>
-                    </button>
-                    <mat-menu #menu="matMenu">
-                        <button mat-menu-item>
-                            <mat-icon color=primary>exit_to_app</mat-icon>
-                        </button>
-                        Sign Out
-                    </mat-menu>
-                </li>
-
-            </ul>
-        </div>
-
-    </mat-toolbar-row>
+  <mat-toolbar-row>
+    <button mat-icon-button (click)="toggleSideBar()">
+      <mat-icon color="primary">menu</mat-icon>
+    </button>
+    <div>
+      <img src="assets/Asset 9.png" />
+    </div>
+    <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
+      <ul fxLayout="row" fxLayoutGap="20px">
+        <li>
+          <button mat-button [matMenuTriggerFor]="menu">
+            <mat-icon color="primary"> person_outline</mat-icon>
+          </button>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item>
+              <a
+                mat-list-item
+                routerLinkActive="list-item-active"
+                routerLink="/login"
+                ><mat-icon color="primary">exit_to_app</mat-icon></a
+              >
+            </button>
+            Sign Out
+          </mat-menu>
+        </li>
+      </ul>
+    </div>
+  </mat-toolbar-row>
 </mat-toolbar>
