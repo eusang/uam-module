@@ -161,13 +161,11 @@
   margin-left: 20px;
   cursor: pointer;
   flex: 1;
-  a {
-    text-decoration: none;
-  }
 
   span {
     font-size: 60px;
     color: rgb(112, 76, 182);
+    text-decoration: none;
   }
 
   &:hover,
