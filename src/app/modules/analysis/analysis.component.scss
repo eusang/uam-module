@@ -109,11 +109,13 @@
   width: 100%;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 .next-arrow-wrapper {
   display: flex;
   flex: 1;
   margin-left: 20px;
+  text-decoration: none;
 }
 .next-arrow {
   width: 40px;
@@ -124,7 +126,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
+  text-decoration: none;
   cursor: pointer;
 
   span {
@@ -143,6 +145,7 @@
 }
 .prev-arrow {
   width: 40px;
+  text-decoration: none;
   height: 40px;
   border: 1px solid rgb(112, 76, 182);
   border-radius: 50%;

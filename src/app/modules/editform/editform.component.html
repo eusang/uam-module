@@ -1,0 +1,19 @@
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1 class="Title">Edit User Details</h1>
+    <label for="username"><b>Edit User Name</b></label>
+    <input type="text" placeholder="Enter User Name" name="username" />
+
+    <label for="email"><b>Update Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" />
+    <label for="contact_number"><b>Update Contact Number</b></label>
+    <input type="text" placeholder="Enter Phone Number" name="contact_number" />
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/users"
+      ><button type="submit" class="btn">UPDATE</button></a
+    >
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/users"
+      ><button type="submit" class="btn cancel">Close</button></a
+    >
+  </form>
+</div>

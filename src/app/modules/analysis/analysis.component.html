@@ -1,10 +1,9 @@
 <div class="container">
   <div class="title">
-    <span class="hall-name">Team Work Hall</span>
+    <span class="hall-name">Meeting Room 1</span>
   </div>
   <div class="wrapper">
     <mat-card class="Hall-Detail">
-      <div class="prev-arrow-wrapper"><div class="next-arrow"><</div></div>
       <div class="image-container">
         <img
           class="hall-img"
@@ -45,7 +44,11 @@
           </div>
         </div>
       </div>
-      <div class="next-arrow-wrapper"><div class="prev-arrow">></div></div>
+      <div class="next-arrow-wrapper">
+        <a mat-list-item routerLinkActive="list-item-active" routerLink="/hall"
+          ><div class="prev-arrow">></div></a
+        >
+      </div>
     </mat-card>
   </div>
 </div>

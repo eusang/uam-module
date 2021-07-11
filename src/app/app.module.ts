@@ -8,8 +8,12 @@ import { HomeModule } from './layout/home/home.module';
 import { MatCardModule } from '@angular/material/card';
 import { MatConfirmDialogComponent } from './mat-confirm-dialog/mat-confirm-dialog.component';
 
+import { AddformComponent } from './modules/addform/addform.component';
+import { EditformComponent } from './modules/editform/editform.component';
+import { DeleteuserComponent } from './modules/deleteuser/deleteuser.component';
+
 @NgModule({
-  declarations: [AppComponent, MatConfirmDialogComponent],
+  declarations: [AppComponent, MatConfirmDialogComponent, AddformComponent, EditformComponent, DeleteuserComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

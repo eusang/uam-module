@@ -5,7 +5,6 @@
   text-transform: uppercase;
   letter-spacing: 1.2px;
   font-weight: bold;
-  margin-left: 35px;
 }
 form {
   width: 400px;
@@ -72,6 +71,9 @@ input {
   font-size: medium;
   padding-left: 20px;
   padding-right: 20px;
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
 }
 .content {
   padding: 10px 100px 10px 10px;
@@ -94,16 +96,22 @@ input {
   justify-content: space-between;
 }
 .user-name {
-  padding-left: 4em;
-  float: left;
   font-size: medium;
-  padding-top: 1em;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 1em;
+}
+.booking-today {
+  font-size: medium;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2em;
 }
 .last-activity {
   font-size: medium;
   display: flex;
   justify-content: space-between;
-  padding-right: 10px;
+  margin-left: 3em;
 }
 
 .user-detail {

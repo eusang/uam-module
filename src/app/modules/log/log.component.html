@@ -4,14 +4,19 @@
   <div class="header">
     <div class="form">
       <form action="/form/submit" method="GET">
-        <input
-          type="date"
-          name="date"
-          class="date-field"
-          placeholder="1999-02-18"
-        />
+        <input type="date" name="date" class="date-field" />
       </form>
+      <div>
+        <mat-icon
+          color="primary"
+          class="submit"
+          routerLinkActive="list-item-active"
+          routerLink="/userdetails"
+          >search</mat-icon
+        >
+      </div>
     </div>
+
     <span class="date"> Today: {{ todayString }}</span>
   </div>
   <div class="table-header">

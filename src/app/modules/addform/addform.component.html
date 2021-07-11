@@ -1,0 +1,27 @@
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1 class="Title">Add User</h1>
+    <label for="username"><b>User Name</b></label>
+    <input type="text" placeholder="Enter UserName" name="username" required />
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required />
+    <label for="contact_number"><b>Contact Number</b></label>
+    <input
+      type="text"
+      placeholder="Enter Phone Number"
+      name="contact_number"
+      required
+    />
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required />
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/users"
+      ><button type="submit" class="btn">ADD</button></a
+    >
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/users"
+      ><button type="submit" class="btn cancel">Close</button></a
+    >
+  </form>
+</div>

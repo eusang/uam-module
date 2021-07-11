@@ -8,18 +8,16 @@
     </div>
 
     <div class="form">
-      <form action="/form/submit" method="GET">
-        <input
-          type="date"
-          name="date"
-          class="search"
-          placeholder="1999-02-18"
-        />
-      </form>
+      <form action="/form/submit" method="GET"></form>
     </div>
 
     <div class="action-buttons">
-      <button mat-raised-button color="primary" class="edit">
+      <button
+        mat-raised-button
+        color="primary"
+        class="edit"
+        onclick="document.location='editform'"
+      >
         <mat-icon>edit</mat-icon>
         Edit
       </button>
@@ -30,12 +28,14 @@
         color="primary"
         class="delete"
         ng-really-message="Are you sure you wanrt to delete this user"
+        onclick="document.location='deluser'"
       >
         <mat-icon>delete</mat-icon>
         Delete
       </button>
     </div>
   </div>
+  <div><span class="contact_number">Contact Number</span></div>
 
   <div class="table-header">
     <span class="user">Hall Name</span>
