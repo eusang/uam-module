@@ -25,11 +25,13 @@
   max-width: 300px;
   padding: 10px;
   background-color: white;
+  box-shadow: rgb(0 0 0 /69%) 0px 26px 30px -10px,
+    rgb(0 0 0 /73%) 0px 16px 10px -10px;
 }
 
 .form-container input[type="text"],
 .form-container input[type="password"] {
-  width: 100%;
+  width: 90%;
   padding: 15px;
   margin: 5px 0 22px 0;
   border: none;

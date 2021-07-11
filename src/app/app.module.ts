@@ -10,10 +10,14 @@ import { MatConfirmDialogComponent } from './mat-confirm-dialog/mat-confirm-dial
 
 import { AddformComponent } from './modules/addform/addform.component';
 import { EditformComponent } from './modules/editform/editform.component';
-import { DeleteuserComponent } from './modules/deleteuser/deleteuser.component';
 
 @NgModule({
-  declarations: [AppComponent, MatConfirmDialogComponent, AddformComponent, EditformComponent, DeleteuserComponent],
+  declarations: [
+    AppComponent,
+    MatConfirmDialogComponent,
+    AddformComponent,
+    EditformComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,

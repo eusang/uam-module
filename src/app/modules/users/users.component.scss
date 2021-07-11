@@ -26,8 +26,9 @@ form {
   }
 }
 
-.button {
+button {
   width: 100px;
+  cursor: pointer;
   @media (max-width: 768px) {
     font-size: 12px;
     padding-left: 2px;
@@ -134,4 +135,7 @@ input {
 }
 .list {
   list-style-type: none;
+}
+.submit {
+  cursor: pointer;
 }

@@ -10,7 +10,7 @@ import { UsersComponent } from './modules/users/users.component';
 import { LoginComponent } from './login/login.component';
 import { AddformComponent } from './modules/addform/addform.component';
 import { EditformComponent } from './modules/editform/editform.component';
-import { DeleteuserComponent } from './modules/deleteuser/deleteuser.component';
+
 const routes: Routes = [
   {
     path: '',
@@ -51,11 +51,7 @@ const routes: Routes = [
 
         component: EditformComponent,
       },
-      {
-        path: 'deluser',
 
-        component: DeleteuserComponent,
-      },
       { path: 'login', component: LoginComponent },
     ],
   },
