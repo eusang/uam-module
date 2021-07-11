@@ -6,6 +6,7 @@
 .material-icons.md-46 {
   font-size: 46px;
   padding-top: 4px;
+  color: #c0c0c0;
 }
 .username {
   padding-left: 30px;
@@ -40,6 +41,10 @@
 }
 .submit {
   cursor: pointer;
+  color: #a0c4ff;
+  &:hover {
+    color: #83acf0;
+  }
 }
 .date {
   font-weight: lighter;
@@ -50,7 +55,7 @@
   height: 20px;
   align-items: center;
   margin-top: 2em;
-  background-color: #7c60ff;
+  background-color: #a0c4ff;
   color: white;
   border-radius: 4px;
   padding: 20px 10px;

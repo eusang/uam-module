@@ -1,3 +1,9 @@
-ul li{
-    list-style: none;
+ul li {
+  list-style: none;
+}
+mat-icon {
+  color: #81a7e4;
+  &:hover {
+    color: #597fbb;
+  }
 }

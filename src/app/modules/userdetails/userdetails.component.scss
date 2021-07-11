@@ -6,6 +6,7 @@
 .material-icons.md-46 {
   font-size: 46px;
   padding-top: 4px;
+  color: #c0c0c0;
 }
 .username {
   padding-left: 30px;
@@ -43,6 +44,9 @@
   box-shadow: none;
   padding: 2px;
   border-radius: 4px;
+  &:hover {
+    background-color: #c0c0c0;
+  }
 }
 .delete {
   text-align: center;
@@ -54,6 +58,11 @@
   padding: 2px;
   box-shadow: none;
   border-radius: 4px;
+
+  &:hover {
+    background-color: red;
+    color: #fefefe;
+  }
 }
 .list {
   list-style-type: none;
@@ -74,7 +83,7 @@
   height: 20px;
   align-items: center;
   margin-top: 2em;
-  background-color: #7c60ff;
+  background-color: #a0c4ff;
   color: white;
   border-radius: 4px;
   padding: 20px 4px;

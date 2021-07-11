@@ -1,7 +1,7 @@
 <mat-toolbar color="white">
   <mat-toolbar-row>
     <button mat-icon-button (click)="toggleSideBar()">
-      <mat-icon color="primary">menu</mat-icon>
+      <mat-icon>menu</mat-icon>
     </button>
     <div>
       <img src="assets/Asset 9.png" />
@@ -10,7 +10,7 @@
       <ul fxLayout="row" fxLayoutGap="20px">
         <li>
           <button mat-button [matMenuTriggerFor]="menu">
-            <mat-icon color="primary"> person_outline</mat-icon>
+            <mat-icon> person_outline</mat-icon>
           </button>
           <mat-menu #menu="matMenu">
             <button mat-menu-item>
@@ -18,7 +18,7 @@
                 mat-list-item
                 routerLinkActive="list-item-active"
                 routerLink="/login"
-                ><mat-icon color="primary">exit_to_app</mat-icon></a
+                ><mat-icon>exit_to_app</mat-icon></a
               >
             </button>
             Sign Out

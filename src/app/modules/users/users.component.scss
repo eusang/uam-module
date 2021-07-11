@@ -58,7 +58,7 @@ input {
   height: 20px;
   align-items: center;
   margin-top: 2em;
-  background-color: #7c60ff;
+  background-color: #a0c4ff;
   color: white;
   border-radius: 4px;
   padding: 20px 20px;
@@ -138,4 +138,17 @@ input {
 }
 .submit {
   cursor: pointer;
+  &:hover {
+    color: #7babfa;
+  }
+}
+mat-icon {
+  color: #a0c4ff;
+}
+button {
+  background-color: #a1bbe6;
+  color: white;
+  &:hover {
+    background-color: #7babfa;
+  }
 }
