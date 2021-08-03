@@ -6,68 +6,31 @@
   letter-spacing: 1.2px;
   font-weight: bold;
 }
-form {
-  width: 400px;
-  margin-top: 2em;
-  margin-left: 35em;
-}
 
-.actions {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  padding: 8px 16px;
-
-  @media (max-width: 768px) {
-    align-items: center;
-    justify-content: center;
-    padding: 8px 16px;
-  }
-}
 
 button {
   width: 100px;
   cursor: pointer;
-  @media (max-width: 768px) {
-    font-size: 12px;
-    padding-left: 2px;
-  }
-}
-.search {
-  display: flex;
-  align-items: center;
-  padding: 0px 50px;
-  height: 6px;
-  @media (max-width: 768px) {
-    font-size: 10px;
-  }
 }
 
+
+
 input {
-  padding: 4px 10px;
-  border: 0;
+
   font-size: 14px;
-  @media (max-width: 768px) {
-    font-size: 12px;
-  }
+
+
 }
 
 .table-header {
-  display: flex;
   height: 20px;
-  align-items: center;
   margin-top: 2em;
   background-color: #a0c4ff;
   color: white;
   border-radius: 4px;
   padding: 20px 20px;
-  justify-content: space-between;
-  @media (max-width: 768px) {
-    font-size: 12px;
-    padding: 5px 5px;
-  }
 }
+
 .user {
   font-size: medium;
   padding-left: 20px;
@@ -76,6 +39,7 @@ input {
     font-size: 12px;
   }
 }
+
 .content {
   padding: 10px 100px 10px 10px;
 }
@@ -90,24 +54,28 @@ input {
   padding: 20px 4px;
   justify-content: space-between;
 }
+
 .user-icon {
   display: flex;
   font-size: 36px;
   padding-top: 0.5em;
   justify-content: space-between;
 }
+
 .user-name {
   font-size: medium;
   display: flex;
   justify-content: space-around;
   margin-left: 1em;
 }
+
 .booking-today {
   font-size: medium;
   display: flex;
   justify-content: space-between;
   margin-left: 2em;
 }
+
 .last-activity {
   font-size: medium;
   display: flex;
@@ -119,9 +87,11 @@ input {
   font-size: 10px;
   font-family: sans-serif;
 }
+
 .description {
   display: none;
 }
+
 .detail {
   display: flex;
   justify-content: space-between;
@@ -129,25 +99,32 @@ input {
   text-decoration: none;
   padding-right: 50px;
 }
+
 .material-icons.md-46 {
   font-size: 46px;
   padding-top: 4px;
 }
+
 .list {
   list-style-type: none;
 }
+
 .submit {
   cursor: pointer;
+
   &:hover {
     color: #7babfa;
   }
 }
+
 mat-icon {
   color: #a0c4ff;
 }
+
 button {
   background-color: #a0c4ff;
   color: white;
+
   &:hover {
     background-color: #7babfa;
   }

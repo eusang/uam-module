@@ -16,6 +16,8 @@ import { HallComponent } from 'src/app/modules/hall/hall.component';
 import { MatButtonModule } from '@angular/material/button';
 import { UserdetailsComponent } from 'src/app/modules/userdetails/userdetails.component';
 import { LoginComponent } from 'src/app/login/login.component';
+import {FlexModule} from "@angular/flex-layout";
+import {MatTableModule} from "@angular/material/table";
 
 @NgModule({
   declarations: [
@@ -38,6 +40,8 @@ import { LoginComponent } from 'src/app/login/login.component';
     MatButtonModule,
     MatIconModule,
     MatFormFieldModule,
+    FlexModule,
+    MatTableModule,
   ],
 })
 export class HomeModule {}
